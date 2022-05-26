@@ -1,0 +1,12 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: clamp(1.5em, 6vw, 5em);
+	padding-bottom: 0;
+	margin-bottom: clamp(7.25em, 17.5vw, 14.25em);
+
+	&__logo {
+		width: clamp(6em, 15vw, 15em);
+	}
+}

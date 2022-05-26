@@ -21,14 +21,12 @@
 
 	--stats-text: var(--clr-neutral-300);
 
-	--btn-border: var(--clr-primary-700);
-	--btn-text: var(--clr-primary-700);
-	--btn-shadow: 0 0 0.9rem hsla(322, 100%, 66%, 0.22);
-
-	--button: var(--clr-white);
-	--bg-button: var(--clr-primary-700);
-	--bg-button-hover: var(--clr-primary-400);
-	--button-shadow: 0 0.6rem 1.3rem hsla(192, 100%, 9%, 0.22);
+	--btn: var(--clr-white);
+	--bg-btn: var(--clr-primary-700);
+	--border-btn: var(--clr-primary-700);
+	--btn-hover: var(--clr-primary-400);
+	--btn-shadow-pink: 0 0 0.9rem hsla(322, 100%, 66%, 0.22);
+	--btn-shadow-grayish: 0 0.6rem 1.3rem hsla(192, 100%, 9%, 0.22);
 
 	--clr-facebook: hsl(220, 46%, 48%);
 	--clr-instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);

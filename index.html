@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- displays site properly based on user's device -->
 
-	<link rel="icon" type="image/png" sizes="32x32" href="./dist/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./dist/images/icons/favicon-32x32.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
@@ -18,18 +18,19 @@
 </head>
 
 <body>
-
+	<nav class="nav">
+		<img src="./dist/images/logo.svg" alt="Huddle logo" class="nav__logo">
+		<button class="btn btn--transparent btn--round">Try it free</button>
+	</nav>
 	<header class="header">
-		<nav class="nav">
-			<img src="./dist/images/logo.svg" alt="Huddle logo" class="nav__logo">
-			<button class="btn btn--transparent">Try it free</button>
-		</nav>
-		<h1 class="header__heading">Build The Community Your Fans Will Love</h1>
-		<p class="header__text">Huddle re-imagines the way we build communities. You have a voice, but so does
-			your audience. Create connections with your users as you engage in genuine discussion.</p>
-		<button class="btn btn--primary btn--round">Get Started For Free</button>
-		<img src="./dist/images/screen-mockups.svg" alt="Illustration of screen mockups for desktop and mobile."
-			class="header__image">
+		<div class="container container--small">
+			<h1 class="header__heading">Build The Community Your Fans Will Love</h1>
+			<p class="header__text">Huddle re-imagines the way we build communities. You have a voice, but so does
+				your audience. Create connections with your users as you engage in genuine discussion.</p>
+			<button class="btn btn--primary btn--round header__btn">Get Started For Free</button>
+			<img src="./dist/images/screen-mockups.svg" alt="Illustration of screen mockups for desktop and mobile."
+				class="header__image">
+		</div>
 	</header>
 	<main>
 		<section class="statistics" aria-label="Statistics">
