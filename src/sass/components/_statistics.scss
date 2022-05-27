@@ -1,0 +1,16 @@
+.statistics {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5.625em;
+
+	@media (min-width: $small-bp) {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	@media (min-width: $large-bp) {
+		justify-content: space-between;
+	}
+}
