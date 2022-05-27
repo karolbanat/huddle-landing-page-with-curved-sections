@@ -1,0 +1,41 @@
+.section {
+	padding-inline: clamp(1.75em, 7.5vw, 4em);
+
+	&__header {
+		line-height: 1.4;
+
+		@media (max-width: $small-bp) {
+			text-align: center;
+		}
+
+		@media (min-width: $small-bp) {
+			display: grid;
+			place-content: center;
+			padding-left: 3.75em;
+
+			&--left {
+				padding-right: 3.75em;
+				padding-left: 0;
+			}
+		}
+	}
+
+	&__image {
+		@media (max-width: $small-bp) {
+			margin-inline: auto;
+			max-width: calc(100% - 2 * 2rem);
+			aspect-ratio: 1;
+		}
+	}
+
+	&__heading {
+		margin-bottom: clamp(1.6rem, 2.5vw, 2.4rem);
+		font-size: clamp(2rem, 5vw, 4rem);
+	}
+
+	&__text {
+		@media (max-width: $small-bp) {
+			font-size: 1.4rem;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+.conversations {
+	padding-block: 4.125em 7.875em;
+
+	@media (min-width: $small-bp) {
+		padding-block: 6.5em 1.5em;
+	}
+}

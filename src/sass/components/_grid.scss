@@ -1,0 +1,16 @@
+.grid {
+	display: grid;
+	gap: 2.75em;
+
+	@media (min-width: $small-bp) {
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-flow: dense;
+		gap: 3.75em;
+
+		&--reversed {
+			& > *:first-child {
+				grid-column: 2;
+			}
+		}
+	}
+}

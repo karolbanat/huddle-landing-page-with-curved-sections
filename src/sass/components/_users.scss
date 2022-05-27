@@ -1,0 +1,7 @@
+.users {
+	padding-block: 4.625em 16.875em;
+
+	@media (min-width: $small-bp) {
+		padding-block: 7.25em;
+	}
+}

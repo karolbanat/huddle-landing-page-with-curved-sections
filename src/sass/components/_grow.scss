@@ -1,0 +1,7 @@
+.grow {
+	padding-block: 11.25em 8.375em;
+
+	@media (min-width: $small-bp) {
+		padding-block: 10.25em 7.25em;
+	}
+}
