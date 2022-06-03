@@ -1,7 +1,7 @@
 .users {
-	padding-block: 4.625em 16.875em;
+	padding-block: 6.5em 16.875em;
 
 	@media (min-width: $small-bp) {
-		padding-block: 7.25em;
+		padding-block: clamp(7.25em, 15vw, 12em);
 	}
 }

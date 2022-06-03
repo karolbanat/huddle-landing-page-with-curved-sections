@@ -8,6 +8,7 @@
 	@media (min-width: $small-bp) {
 		flex-direction: row;
 		justify-content: space-around;
+		margin-bottom: 8.25em;
 	}
 
 	@media (min-width: $large-bp) {

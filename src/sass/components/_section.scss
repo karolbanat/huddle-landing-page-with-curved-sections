@@ -38,4 +38,31 @@
 			font-size: 1.4rem;
 		}
 	}
+
+	&__curve {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: -1;
+
+		& > img {
+			width: 100%;
+			object-fit: contain;
+		}
+
+		&--top {
+			top: 0;
+		}
+
+		&--bottom {
+			bottom: 0;
+		}
+	}
+
+	&--background {
+		position: relative;
+		background-color: var(--bg-section);
+		z-index: 0;
+	}
 }
