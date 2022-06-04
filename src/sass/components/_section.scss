@@ -1,5 +1,5 @@
 .section {
-	padding-inline: clamp(1.75em, 7.5vw, 4em);
+	padding-inline: clamp(1.75em, 7vw, 7.5em);
 
 	&__header {
 		line-height: 1.4;
@@ -49,6 +49,7 @@
 		& > img {
 			width: 100%;
 			object-fit: contain;
+			margin-bottom: -0.2rem;
 		}
 
 		&--top {

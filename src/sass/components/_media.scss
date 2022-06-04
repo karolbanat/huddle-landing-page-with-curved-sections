@@ -1,0 +1,25 @@
+.media {
+	display: flex;
+	gap: 1em;
+	margin-top: clamp(3em, 8vw, 5em);
+
+	@media (min-width: $small-bp) {
+		gap: 1.5em;
+	}
+
+	&__icon {
+		transition: stroke 0.35s ease-in-out;
+
+		&--facebook:hover {
+			stroke: var(--clr-facebook);
+		}
+
+		&--instagram:hover {
+			stroke: var(--clr-instagram);
+		}
+
+		&--twitter:hover {
+			stroke: var(--clr-twitter);
+		}
+	}
+}
