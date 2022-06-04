@@ -1,5 +1,5 @@
 .grow {
-	padding-block: 11.25em 8.375em;
+	padding-block: 11.25em 8.25em;
 
 	@media (min-width: $small-bp) {
 		padding-block: clamp(10.25em, 17.5vw, 14em) clamp(7.25em, 13vw, 10em);
