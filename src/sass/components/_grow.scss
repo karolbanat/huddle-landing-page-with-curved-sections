@@ -2,6 +2,6 @@
 	padding-block: 11.25em 8.375em;
 
 	@media (min-width: $small-bp) {
-		padding-block: clamp(10.25em, 17.5vw, 14em) 7.25em;
+		padding-block: clamp(10.25em, 17.5vw, 14em) clamp(7.25em, 13vw, 10em);
 	}
 }
