@@ -1,0 +1,36 @@
+.newsletter {
+	&__heading {
+		margin-bottom: 1.6rem;
+		font-size: 2rem;
+		text-transform: uppercase;
+
+		@media (min-width: $small-bp) {
+			font-size: 2.4rem;
+		}
+	}
+
+	&__form {
+		display: grid;
+		gap: 1.6rem;
+
+		@media (min-width: $large-bp) {
+			grid-template-columns: 1fr auto;
+			gap: 4rem;
+		}
+	}
+
+	&__input {
+		padding: 1em;
+		width: 100%;
+		font-size: 1.4rem;
+		border: none;
+		border-radius: 0.6rem;
+	}
+
+	&__btn {
+		place-self: end;
+		padding: 0.75em 2.5em;
+		font-size: 1.6rem;
+		border-radius: 0.5rem;
+	}
+}

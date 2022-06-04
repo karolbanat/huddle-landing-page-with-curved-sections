@@ -1,0 +1,25 @@
+.footer {
+	padding-top: clamp(7em, 20vw, 17em);
+	color: var(--footer);
+	background-color: var(--bg-footer);
+
+	&__flex {
+		display: flex;
+		gap: 6.5em;
+
+		@media (max-width: $small-bp) {
+			flex-direction: column-reverse;
+		}
+
+		& > * {
+			flex-grow: 1;
+		}
+	}
+
+	&__text {
+		margin-bottom: 3.6rem;
+		max-width: 40ch;
+		font-size: 1.4rem;
+		line-height: 1.6;
+	}
+}
