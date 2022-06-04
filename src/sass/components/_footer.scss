@@ -25,10 +25,6 @@
 
 	&__logo {
 		margin-bottom: clamp(1.6rem, 3vw, 3rem);
-		max-width: 62.5%;
-
-		@media (min-width: $small-bp) {
-			max-width: 50%;
-		}
+		max-width: clamp(12.5em, 15vw, 15em);
 	}
 }
