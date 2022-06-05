@@ -2,8 +2,8 @@
 
 ### Links
 
-- Solution URL: [Frontendmentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages Site](https://your-live-site-url.com)
+- Solution URL: [Frontendmentor Solution Page](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-yUzuk-51oU)
+- Live Site URL: [GitHub Pages Site](https://karolbanat.github.io/huddle-landing-page-with-curved-sections/)
 
 ## Author
 
